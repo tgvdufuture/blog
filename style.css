@@ -1,0 +1,123 @@
+/*Fonts*/
+    @import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+/*Fonts*/
+
+/*KeyFrames*/
+@keyframes roulerAGauche {
+    from{
+        margin-left: -100%;
+    }
+    
+    to {
+        margin-left: 0%;
+    }
+}
+
+@keyframes title {
+    from{
+        position: relative;
+        left: -200%;
+        opacity: 0.5;
+    }   
+    to{
+        position: relative;
+        left: 100%;
+        opacity: 1;
+    } 
+}
+
+/*KeyFrame*/
+/*Premiere page*/
+.title-anim{
+    animation-name: roulerAGauche;
+    animation-duration: 4s;
+}
+/*Premiere page*/
+/*Description*/
+.img{
+    display: flex;
+    size: 500px;
+    border-radius: 50%;
+    width : 250px;
+    height: auto;
+    position: relative;
+    margin-left: 6%;
+    top: 30px;
+}
+
+.title{
+    display: flex;
+    margin-left: 30%;
+    margin-top: -10%;
+    text-decoration: underline;
+}
+
+.para{
+    width: 800px;
+    position: relative;
+    left: 500px;
+}
+/*Description*/
+/*Article*/
+.presentation{
+    opacity: 70%;
+}
+
+.codeHTML{
+    position: relative;
+    left: 30%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+       
+    animation-name: roulerAGauche;
+    animation-duration: 4s;
+}
+
+.chek{
+    position: relative;
+    left: 200px;
+    top: 30px;
+    font-family: 'Zen Antique', serif;
+}
+
+.link{
+    position: relative;
+    left: 150px;
+    top: -35px;
+    font-family: 'Zen Antique', serif;
+}
+
+.logo{
+    left: -200px;
+}
+/*Article*/
+/*Flex-box*/
+.display{
+    position: relative;
+    left: 420px;
+    top: -28px;
+    font-family: 'Lato', sans-serif;
+    color: blue;
+}
+.css{
+    position: relative;
+    left: 510px;
+    top: -70px;
+}
+.align{
+    position: relative;
+    left: 50px;
+}
+.img-flex-box{
+    position: relative;
+    left: 55px;
+}
+.presentation2{
+    opacity: 70%;
+    position: relative;
+    left: 5px;
+}
+/*Flex-box*/
